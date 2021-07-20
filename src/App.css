@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  width: max-content;
+}
+
+#root {
+  display: grid;
+  place-items: center;
+  /* background-color: coral; */
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 650px;
+  width: 770px;
+  box-shadow: 4px 4px 10px gray;
+  justify-content: center;
+}
+
+
+
+.image {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 120px;
+  width: 120px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.image-blank {
+  background: url("./Components/Images/a.webp") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 120px;
+  width: 120px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+  padding: 10px;
+  margin: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .image {
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+  }
+ 
+}
